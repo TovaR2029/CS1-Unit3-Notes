@@ -71,7 +71,7 @@ to any element we want to style.</p>
   <p>For more complex components like cards, go to the <a href="https://getbootstrap.com/">Bootstrap Website</a> and find an example you like. Then you can just copy & paste the code!</p>
 
 
-  <div class="card">
+  <div class="card w-50 mx-auto">
   <img src="https://images.unsplash.com/photo-1569112135534-e6d5939279a7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNpdHklMjBhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
@@ -81,6 +81,54 @@ to any element we want to style.</p>
 
 </div>
 
+</div>
+
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active p-5">
+      <img src="https://images.squarespace-cdn.com/content/v1/5999b55abe6594fce2334596/1555111114050-5E5JADGIIU2KECP8EBBY/view+from+pod51+hotel+room+New+York.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item p-5">
+      <img src="https://img3.wallspic.com/crops/2/0/6/5/6/165602/165602-new_york_city_aesthetic-new_york-building-cloud-cars-1420x3000.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item p-5">
+      <img src="https://plus.unsplash.com/premium_photo-1682629789675-5a2ecb3db5c9?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3JTIweW9yayUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Click Here! 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">POPUP</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Info can go here!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 </body>
